@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SFMS - Vault</title>
+
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="left">
+                <a class="title" href="/index.html"><h1>SFMS</h1></a>
+            </div>
+
+            <div class="right">
+                <span class="links">
+                    <a href="#">Vault</a>
+                </span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="warning-section">
+            <p class="intro-text">
+                Some flags have not been properly setup!
+            </p>
+            <p>
+                Please consult your installation manual.
+            </p>
+        </section>
+
+        <section>
+            <h2>
+                Flags
+            </h2>
+
+            <p>
+                Your flags are listed below.
+            </p>
+        </section>
+
+        <section class="flag-section">
+            <h3>DemoCTF</h3>
+            <p class="flag" name="demo">****************</p>
+        </section>
+        <section class="flag-section">
+            <h3>TestCTF</h3>
+            <p class="flag" name="test">****************</p>
+        </section>
+        <section class="flag-section">
+            <h3>RandomCTF</h3>
+            <p class="flag" name="random">****************</p>
+        </section>
+        <section class="flag-section">
+            <h3>WhatTheCTF</h3>
+            <p class="flag" name="wtctf">****************</p>
+        </section>
+    </main>
+
+    <script>
+        function getFlag(name, callback) {
+            fetch('/api/flag/' + name)
+                .then((response) => {
+                    return response.text()
+                })
+                .then((text) => {
+                    callback(text)
+                })
+        }
+
+        function loadFlag(flag) {
+            let name = flag.getAttribute('name')
+            getFlag(name, (text) => {
+                if (text.length > 0) {
+                    flag.innerHTML = text;
+                } else {
+                    flag.parentElement.classList.add('warning-section')
+                }
+            })
+        }
+
+        window.onload = () => {
+            sections = document.getElementsByClassName('flag-section')
+            for (let section of sections) {
+                let flag = section.getElementsByClassName('flag')[0]
+                flag.onclick = () => {
+                    loadFlag(flag)
+                }
+            }
+        }
+    </script>
+</body>
+</html>

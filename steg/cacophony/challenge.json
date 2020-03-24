@@ -1,0 +1,14 @@
+{
+    "name": "cacophony",
+    "category": "steg",
+    "description": "I was playing some LoL and listening to my favourite songs, and I seem to have misplaced the flag somewhere :( Help?",
+    "points": 200,
+    "flags": "AFNOM{INT0_THE_FR4Y}",
+    "files": [
+        "cacophony.wav"
+    ],
+    "requirements": [
+        "steg/quiet_as_a_morse"
+    ],
+    "scripts": {}
+}

@@ -1,0 +1,12 @@
+{
+    "name": "quiet_as_a_morse",
+    "category": "steg",
+    "description": "I found the source of the ticking! It's a pipe bomb! :)",
+    "points": 100,
+    "flags": "AFNOM{BUT_IM_STILL_SC4R3D_0F_3LEPH4NTS}",
+    "files": [
+        "my_favourite_song.wav"
+    ],
+    "requirements": [],
+    "scripts": {}
+}

@@ -1,0 +1,13 @@
+{
+    "name": "banana-town",
+    "category": "web",
+    "description": [
+        "Welcome to banana town. Population: you, and a *whole* lot of monkeys.",
+        "<a href=\"http://challenges.wtctf.afnom.net:4000\">challenges.wtctf.afnom.net:4000</a>"
+    ],
+    "points": 150,
+    "flags": "AFNOM{1M_c3rt1F148LY_84n4N4s}",
+    "files": [],
+    "requirements": [],
+    "scripts": {}
+}

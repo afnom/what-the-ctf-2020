@@ -1,0 +1,17 @@
+{
+    "name": "memo pad",
+    "category": "binary",
+    "description": [
+        "neko3 is forgetful. So she wrote a super simple memo pad...",
+        "<code>nc challenges.wtctf.afnom.net 4018</code>"
+    ],
+    "points": 300,
+    "flags": "AFNOM{vT4bl3_wh47?}",
+    "files": [
+        "memo_pad"
+    ],
+    "requirements": [],
+    "scripts": {
+        "build": "make"
+    }
+}

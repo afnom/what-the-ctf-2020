@@ -1,0 +1,12 @@
+{
+    "name": "dead_beef",
+    "category": "misc",
+    "description": "Sometimes you're beef and sometimes you're dead.",
+    "points": 100,
+    "flags": "AFNOM{B1n4ry_s3cr3ts}",
+    "files": [
+        "dead_beef.txt"
+    ],
+    "requirements": [],
+    "scripts": {}
+}

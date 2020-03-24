@@ -1,0 +1,57 @@
+version: '3'
+services:
+  web-banana-town:
+    build: web/banana-town
+    restart: always
+    ports:
+    - "4000:443"
+  web-cat-ascii-art:
+    build: web/cat_ascii_art
+    restart: always
+    ports:
+    - "4001:4000"
+  web-roboticists:
+    build: web/roboticists
+    restart: always
+    ports:
+    - "4003:4000"
+  web-vault:
+    build: web/vault
+    restart: always
+    ports:
+    - "4005:4000"
+  web-wine:
+    build: web/wine
+    restart: always
+    ports:
+    - "4006:4000"
+  binary-anti:
+    build: binary/anti
+    restart: always
+    ports:
+    - "4007:4000"
+  binary-remember-the-past:
+    build: binary/remember-the-past
+    restart: always
+    ports:
+    - "4009:4000"
+  binary-vuln-binary:
+    build: binary/vuln_binary
+    restart: always
+    ports:
+    - "4011:4000"
+  misc-russian-os:
+    build: misc/russian_os/build
+    restart: always
+    ports:
+    - "4016:1111"
+  misc-shashell:
+    build: misc/shashell
+    restart: always
+    ports:
+    - "4017:22"
+  binary-memo-pad:
+    build: binary/memo_pad
+    restart: always
+    ports:
+    - "4018:4000"

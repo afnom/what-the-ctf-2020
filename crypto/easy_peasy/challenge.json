@@ -1,0 +1,12 @@
+{
+    "name": "easy_peasy",
+    "category": "crypto",
+    "description": "Someone's enciphered my damn play, hope they've used a trivially reversible algorithm \u00af\\_(\u30c4)_/\u00af",
+    "points": 100,
+    "flags": "AFNOM{why_the_hell_is_there_a_monkey_in_this}",
+    "files": [
+        "cipher.txt"
+    ],
+    "requirements": [],
+    "scripts": {}
+}

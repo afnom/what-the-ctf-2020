@@ -1,0 +1,14 @@
+{
+    "name": "passwords_1",
+    "category": "cracking",
+    "description": "A simple one to start off with, work out the hash type and crack, the README explains some of the basics of password cracking",
+    "points": 100,
+    "flags": "AFNOM{let_me_elon}",
+    "files": [
+        "README.md",
+        "hash1",
+        "flag1.txt.enc"
+    ],
+    "requirements": [],
+    "scripts": {}
+}

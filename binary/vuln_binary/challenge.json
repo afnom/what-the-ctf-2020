@@ -1,0 +1,19 @@
+{
+    "name": "vuln_binary",
+    "category": "binary",
+    "description": [
+        "Crack this C buffer overflow!",
+        "compile yourself with 'gcc vuln.c -o vuln -Dflag=\"FLAG_HERE\"'",
+        "<code>nc challenges.wtctf.afnom.net 4011</code>"
+    ],
+    "points": 100,
+    "flags": "AFNOM{buffer_overflowed}",
+    "files": [
+        "vuln.c",
+        "vuln"
+    ],
+    "requirements": [],
+    "scripts": {
+        "generate": "gcc vuln.c -o vuln_actual -Dflag=\"AFNOM{buffer_overflowed}\""
+    }
+}

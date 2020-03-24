@@ -1,0 +1,14 @@
+{
+    "name": "Roboticists",
+    "category": "web",
+    "description": [
+        "I've added a navigation feature to my website, find the flag!",
+        "<a href='challenges.wtctf.afnom.net:4003/'>challenges.wtctf.afnom.net:4003</a>",
+        "Category: web"
+    ],
+    "points": 100,
+    "flags": "AFNOM{rob0ts_h4ve_s3crets}",
+    "files": [],
+    "requirements": [],
+    "scripts": {}
+}

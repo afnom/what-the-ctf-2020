@@ -1,0 +1,12 @@
+{
+    "name": "kittens",
+    "category": "steg",
+    "description": "I'm sure there's more than one kitten here...",
+    "points": 100,
+    "flags": "AFNOM{KITTIES_FTW}",
+    "files": [
+        "kittens.png"
+    ],
+    "requirements": [],
+    "scripts": {}
+}

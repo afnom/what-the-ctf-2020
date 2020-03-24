@@ -1,0 +1,15 @@
+{
+    "name": "passwords_3",
+    "category": "cracking",
+    "description": "This password contains an english word with some variations to make it a \"suitable\" password.",
+    "points": 250,
+    "flags": "AFNOM{let_me_meet_leet_melon_lemon_mole_nelom_telnet_no_eet_lemon}",
+    "files": [
+        "hash3",
+        "flag3.txt.enc"
+    ],
+    "requirements": [
+        "cracking/passwords_2"
+    ],
+    "scripts": {}
+}

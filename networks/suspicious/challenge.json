@@ -1,0 +1,12 @@
+{
+    "name": "Suspicious",
+    "category": "networks",
+    "description": "Once again our comically vulnerable web server has been exploited :(, maybe we should stop leave files called flag.txt lying around. Like that's going to stop us.",
+    "points": 250,
+    "flags": "AFNOM{This_makes_a_waaaay_better_dns_challenge_than_last_years_one_lol}",
+    "files": [
+        "capture.zip"
+    ],
+    "requirements": [],
+    "scripts": {}
+}

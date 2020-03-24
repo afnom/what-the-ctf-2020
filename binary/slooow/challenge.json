@@ -1,0 +1,12 @@
+{
+    "name": "slooow",
+    "category": "binary",
+    "description": "wow, my code is just too slow! i'm sure it'll finish soon though...",
+    "points": 500,
+    "flags": "AFNOM{670317326317473067306347670313676317673067332317313367}",
+    "files": [
+        "Slooow.class"
+    ],
+    "requirements": [],
+    "scripts": {}
+}

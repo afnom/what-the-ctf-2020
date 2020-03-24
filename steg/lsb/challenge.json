@@ -1,0 +1,12 @@
+{
+    "name": "lsb",
+    "category": "steg",
+    "description": "There's a secret hidden inside this incredibly cute otter pic",
+    "points": 150,
+    "flags": "AFNOM{otttttttttttttttttttttttttttttttttttttttttttttttttttttterz!}",
+    "files": [
+        "result.bmp"
+    ],
+    "requirements": [],
+    "scripts": {}
+}

@@ -1,0 +1,12 @@
+{
+    "name": "BacktheHox",
+    "category": "networks",
+    "description": "We detected an attack on our server and captured the traffic, fortunately the attacker didn't even bother ecnrypting their shell!",
+    "points": 100,
+    "flags": "AFNOM{Ju5t_us3_SSH}",
+    "files": [
+        "capture.pcapng"
+    ],
+    "requirements": [],
+    "scripts": {}
+}

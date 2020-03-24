@@ -1,0 +1,43 @@
+.content {
+  font-family: 'Roboto', sans-serif;
+
+  margin-top: 5em;
+  margin-left: 5em;
+  
+  width: 360px;
+
+  padding: 20px;
+  padding-bottom: 40px;
+  border: 1px solid #ddd;
+}
+
+.header img {
+  display: inline;
+  width: 4em;
+
+  transform: translateY(18%);
+}
+
+.header h1, h2, h3, h4, h5, h6 {
+  display: inline;
+}
+
+.form-content {
+  margin-left: 4.4em;
+}
+
+form * {
+  margin-top: 1em;
+}
+
+textarea {
+  resize: none;
+  padding: 0.5em;
+}
+
+.error {
+  color: #222;
+  background-color: rgb(238, 96, 77);
+
+  padding: 0.6em;
+}

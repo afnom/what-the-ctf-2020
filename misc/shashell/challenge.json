@@ -1,0 +1,15 @@
+{
+    "name": "shashell",
+    "category": "misc",
+    "description": [
+        "Hm. I accidentally dropped my sha1 algorithm, and now it's all over every line of my shell's output!",
+        "Please help me clean up before anyone else finds out... but please ignore the flag.txt",
+        "<code>ssh sha@challenges.wtctf.afnom.net -p 4017</code>",
+        "password: <code>ilikehashbrowns</code>"
+    ],
+    "points": 300,
+    "flags": "AFNOM{Pl5_t3lL_M3_Y0u_d1DnT_BRuT3F0RC3_th12}",
+    "files": [],
+    "requirements": [],
+    "scripts": {}
+}

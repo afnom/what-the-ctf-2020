@@ -1,0 +1,12 @@
+{
+    "name": "justreadme",
+    "category": "misc",
+    "description": "try changing your perspective",
+    "points": 100,
+    "flags": "AFNOM{N07_7hA7_hARD_i5_I7}",
+    "files": [
+        "readme.txt"
+    ],
+    "requirements": [],
+    "scripts": {}
+}

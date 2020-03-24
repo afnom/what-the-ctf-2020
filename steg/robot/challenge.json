@@ -1,0 +1,12 @@
+{
+    "name": "robot",
+    "category": "steg",
+    "description": "I met a robot today!",
+    "points": 100,
+    "flags": "AFNOM{R0b0t5_4r3_b3tt3r_th4n_m0nk3y5}",
+    "files": [
+        "met_a_robot_today.jpg"
+    ],
+    "requirements": [],
+    "scripts": {}
+}

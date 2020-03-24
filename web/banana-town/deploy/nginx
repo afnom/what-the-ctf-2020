@@ -1,0 +1,24 @@
+server {
+    server_name wt.ctf;
+    client_max_body_size 25m;
+
+    listen              80;
+    listen              [::]:80;
+    listen              443 ssl http2;
+    listen              [::]:443 ssl http2;
+
+    ssl_certificate     cert.pem;
+    ssl_certificate_key key.pem;
+    ssl_session_timeout 1d;
+
+    ssl_protocols TLSv1.3;
+    ssl_prefer_server_ciphers off;
+
+    ssl_session_cache shared:MozSSL:10m;
+    ssl_session_tickets off;
+
+    location / {
+        autoindex on;
+        root /var/www/wt.ctf;
+    }
+}

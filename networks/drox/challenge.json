@@ -1,0 +1,12 @@
+{
+    "name": "drox",
+    "category": "networks",
+    "description": "We're pretty sure these two are up to no good, but they've come up with some super secret encryption we can't crack, can you help?",
+    "points": 350,
+    "flags": "AFNOM{S3curity_by_ob5curity}",
+    "files": [
+        "drox.pcapng"
+    ],
+    "requirements": [],
+    "scripts": {}
+}

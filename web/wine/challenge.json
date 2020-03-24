@@ -1,0 +1,17 @@
+{
+    "name": "wine",
+    "category": "web",
+    "description": [
+        "Fancy a drink? We've got plenty for you to whine about :D",
+        "<a href=\"http://challenges.wtctf.afnom.net:4006\">challenges.wtctf.afnom.net:4006</a>"
+    ],
+    "points": 350,
+    "flags": "AFNOM{m4K3_4_C0MpL41N7_4b0U7_17}",
+    "files": [
+        "app.zip"
+    ],
+    "requirements": [],
+    "scripts": {
+        "build": "./packager.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="header">
+  <img src="static/wine.png">
+  <h1>Fancy a whine?</h1>
+</div>
+
+<div class="form-content">
+  <p>Please make your complaint below:</p>
+
+  <form action="/complaint" method="POST">
+    <textarea name="content" cols="35" rows="8" placeholder="Please enter your complaint here..."></textarea>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+{% endblock %}

@@ -1,0 +1,13 @@
+{
+    "name": "russian_os",
+    "category": "misc",
+    "description": [
+        "Hack into this computer.",
+        "<code>nc challenges.wtctf.afnom.net 4016</code>"
+    ],
+    "points": 400,
+    "flags": "AFNOM{1n_soviet_Russia_fl4g_capture_y0u}",
+    "files": [],
+    "requirements": [],
+    "scripts": {}
+}

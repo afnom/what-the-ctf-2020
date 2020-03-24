@@ -1,0 +1,13 @@
+{
+    "name": "anti",
+    "category": "binary",
+    "description": [
+        "I've specially designed a new shell, just to stop you from getting the flag!",
+        "<code>nc challenges.wtctf.afnom.net 4007</code>"
+    ],
+    "points": 300,
+    "flags": "AFNOM{pYth0n_C4N_bE_expl01t4Ble_2}",
+    "files": [],
+    "requirements": [],
+    "scripts": {}
+}

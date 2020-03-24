@@ -1,0 +1,12 @@
+{
+    "name": "high-roller (coaster)",
+    "category": "steg",
+    "description": "I took a picture of a flag at the local theme park, but it looks like I broke it...",
+    "points": 100,
+    "flags": "AFNOM{cr3am_of_the_cr0p}",
+    "files": [
+        "its_a_small_world.png"
+    ],
+    "requirements": [],
+    "scripts": {}
+}

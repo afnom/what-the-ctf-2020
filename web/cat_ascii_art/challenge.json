@@ -1,0 +1,13 @@
+{
+    "name": "Cat_ascii_art",
+    "category": "web",
+    "description": [
+        "I love cats. I really really do. In fact I made a website that generates cat ascii art!",
+        "<a href=\"http://challenges.wtctf.afnom.net:4001\">challenges.wtctf.afnom.net:4001</a>"
+    ],
+    "points": 250,
+    "flags": "AFNOM{\ud83d\udc08_\ud83d\udc08_\ud83d\udc08_\ud83d\udc08}",
+    "files": [],
+    "requirements": [],
+    "scripts": {}
+}

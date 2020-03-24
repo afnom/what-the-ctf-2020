@@ -1,0 +1,15 @@
+{
+    "name": "access",
+    "category": "binary",
+    "description": [
+        "Simple password checker",
+        "The password is the flag"
+    ],
+    "points": 150,
+    "flags": "AFNOM{Py7h0n_R3_15_W1ck3d}",
+    "files": [
+        "access.pyc"
+    ],
+    "requirements": [],
+    "scripts": {}
+}

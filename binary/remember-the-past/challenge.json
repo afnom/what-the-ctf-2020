@@ -1,0 +1,13 @@
+{
+    "name": "Remember the Past",
+    "category": "binary",
+    "description": [
+        "Just follow the instructions ;)",
+        "<a href=\"http://challenges.wtctf.afnom.net:4009\">challenges.wtctf.afnom.net:4009</a>"
+    ],
+    "points": 250,
+    "flags": "AFNOM{h1570ry_r3p3475_1753lf}",
+    "files": [],
+    "requirements": [],
+    "scripts": {}
+}

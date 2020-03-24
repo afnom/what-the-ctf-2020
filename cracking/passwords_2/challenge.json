@@ -1,0 +1,20 @@
+{
+    "name": "passwords_2",
+    "category": "cracking",
+    "description": [
+        "The password is 8 characters long.",
+        "The 1st, 3rd and 4th characters are numbers. The 6th is uppercase, the 5th is lowercase and the 2nd is a symbol.",
+        "The last two are either numbers or symbols.",
+        "Good luck!"
+    ],
+    "points": 150,
+    "flags": "AFNOM{no_mel_let_elon_meet_lemon_teem}",
+    "files": [
+        "hash2",
+        "flag2.txt.enc"
+    ],
+    "requirements": [
+        "cracking/passwords_1"
+    ],
+    "scripts": {}
+}

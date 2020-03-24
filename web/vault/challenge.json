@@ -1,0 +1,16 @@
+{
+    "name": "vault",
+    "category": "web",
+    "description": [
+        "I've placed my flags in this new super secure flag platform!",
+        "It cost me a lot of money, so I hope it works...",
+        "<a href=\"http://challenges.wtctf.afnom.net:4005\">challenges.wtctf.afnom.net:4005</a>"
+    ],
+    "points": 350,
+    "flags": "AFNOM{7h3_oNly_R3aL_aC7uaL_fLA9}",
+    "files": [],
+    "requirements": [],
+    "scripts": {
+        "generate": "python generate.py"
+    }
+}

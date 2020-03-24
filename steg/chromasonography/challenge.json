@@ -1,0 +1,24 @@
+{
+    "name": "chromasonography",
+    "category": "steg",
+    "description": [
+        "Betwixt pixels here coloured three,",
+        "A flag hiding there plain to see,",
+        "With grass, sea, and herring",
+        "Two linked in a pairing",
+        "Heed blue and green sim'taneously."
+    ],
+    "points": 400,
+    "flags": [
+        "AFNOM{C0LOURFUL_S0UND5}",
+        "AFNOM{C0LOURFUL S0UND5}",
+        "AFNOM C0LOURFUL S0UND5"
+    ],
+    "files": [
+        "image.jpg"
+    ],
+    "requirements": [
+        "steg/cacophony"
+    ],
+    "scripts": {}
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<title>Roboticists</title>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+		<style type="text/css">
+			body {
+				background-color: #cc33ff;
+			}
+			body > .grid {
+				height: 100%;
+			}
+			.image {
+				margin-top: -50px;
+			}
+			.column {
+				max-width: 450px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="ui middle aligned center aligned grid">
+			<div class="column">
+				<h2 class="ui image header" style="color:white">
+					<div class="content">
+            Welcome to my robots fan page!
+					</div>
+				</h2>
+
+        <p>Recently added feature: a cool website easter egg with a flag!</p>
+
+        	<img height="200" width="200" src="{{url_for('static', filename='robot.jpeg')}}" />
+
+			</div>
+		</div>
+	</body>
+</html>
