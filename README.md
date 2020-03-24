@@ -3,7 +3,7 @@
 This is an archive of the solved challenges from AFNOM's WhatTheCTF 2020.
 
 In here are all the scripts for running the challenges, including docker
-infractructure, as well as challenge.json's managed through
+infractructure, as well as the `challenge.json`'s managed by
 [ctftool](https://github.com/jedevc/mini-ctf-tool).
 
 Enjoy!
