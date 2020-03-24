@@ -2,7 +2,7 @@
 
 This is an archive of the solved challenges from AFNOM's WhatTheCTF 2020.
 
-![WhatTheCTF logo](https://afnom.net/assets/wtctf19.png)
+![WhatTheCTF logo](https://raw.githubusercontent.com/afnom/what-the-ctf-2020/master/logo.png)
 
 In here are all the scripts for running the challenges, including docker
 infractructure, as well as the `challenge.json`'s managed by
